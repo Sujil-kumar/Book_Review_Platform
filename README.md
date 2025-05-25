@@ -96,7 +96,6 @@ Make sure the frontend is configured to call your backend at `http://localhost:5
 ##  Author
 
 - Sujilkumar P
-- 
 
 ---
 
