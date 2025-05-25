@@ -1,0 +1,79 @@
+/* Container for the home page */
+.home-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header section with title and profile button */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Title text */
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Profile button */
+.home-profile-button {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.home-profile-button:hover {
+  background-color: #0056b3;
+}
+
+/* Filters section */
+.home-filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* Search input */
+.home-search {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Genre select */
+.home-select {
+  width: 180px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Message text (loading or no results) */
+.home-message {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+}
+
+/* Grid layout for book cards */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
